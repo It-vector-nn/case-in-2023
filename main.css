@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&display=swap');
+*{
+    text-decoration: none;
+}
+input {outline:none;}
+.header{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header-left{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header-title{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    color: #015366;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 17px;
+}
+.header-profile__title{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #000000;
+}
+.login{
+    max-width: 443px;
+    height: 420px;
+    background: #A7D1D2;
+    border-radius: 10px;
+    padding: 27px 38px;
+    margin: 100px auto;
+
+}
+.login-title{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+    color: #000000;
+}
+.login-field{
+
+}
+.login-field__title{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+    margin-bottom: 6px;
+}
+.login-field__input{
+    height: 43px;
+    width: 100%;
+    padding: 8px 14px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    color: #706C6C;
+    border: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 20px;
+}
+.login-btn{
+    padding: 11px 58px;
+    max-width: 194px;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    background: #015366;
+    border-radius: 10px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 35px;
+    color: #FFFFFF;
+    margin: 13px auto;
+    cursor: pointer;
+}
+.login-forgot-pass{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+    cursor: pointer;
+}
+
+@media (max-width: 500px) {
+    .login{
+        max-width: 80%;
+    }
+    .login-field__title{
+    font-size: 16px;
+    }
+    .login-title{
+    font-size: 20px;
+    }
+    .login-forgot-pass{
+        font-size: 16px;
+    }
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+@media (max-width: 424px) {
+    .header-title{
+        font-size: 24px;
+    }
+}
+@media (max-width: 767px) {
+
+    .header-profile__title{
+        display: none;
+    }
+}

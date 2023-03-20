@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./project-todo.css" />
+    <title>CaseIn</title>
+  </head>
+
+  <body>
+    <div class="header">
+        <div class="header-left">
+            <div class="header-logo">
+                <img src="./assets/logo.svg" alt="">
+            </div>
+            <div class="header-title">TaskMaster</div>
+        </div>
+        <div class="header-options">
+            <div class="header-option">
+                Задача
+            </div>
+            <div class="header-option">
+                Подзадача
+            </div>
+            <div class="header-option">
+                Текст
+            </div>
+            <div class="header-option">
+                Файл
+            </div>
+            <div class="header-option">
+                График
+            </div>
+        </div>
+        <div class="header-right">
+            <!-- <div class="header-profile__title">
+                Личный кабинет
+            </div> -->
+            <img src="./assets/profile-icon.svg" alt="">
+        </div>
+    </div>
+    <div class="navbar">
+        <div class="navbar-item">
+            <img src="./assets/checked-navbar.svg" alt="">
+        </div>
+        <div class="navbar-item">
+            <img src="./assets/stats-navbar.svg" alt="">
+        </div>
+        <div class="navbar-item">
+            <a href="./programms.html">
+                <img src="./assets/monitor-navbar.svg" alt="">
+            </a>
+        </div>
+        <div class="navbar-item">
+            <img src="./assets/question-navbar.svg" alt="">
+        </div>
+        <div class="navbar-item">
+            <img src="./assets/settings-navbar.svg" alt="">
+        </div>
+    </div>
+    <div class="todo">
+
+        <div class="todo-left">
+            <div class="todo-title">Задание на проектирование</div>
+
+            <div class="todo-task">
+                <div class="todo-taskfile">
+                    <img  src="./assets/file.svg" alt="">
+                    <div class="todo-taskfile__name">Задание на проектирование.pdf</div>
+                </div>
+                <div class="todo-addfile">Добавить файл</div>
+                <div class="todo__fields">
+                    <div class="todo__field">
+                        <div class="todo__field-title">
+                            Исполнитель
+                        </div>
+                        <div class="todo__field-input">
+                            <input placeholder="Петров И.В." class="todo__field-worker" type="text">
+                        </div>
+                    </div>
+                    <div class="todo__field">
+                        <div class="todo__field-title">
+                            Дата исполнения
+                        </div>
+                        <div class="todo__field-input">
+                            <input placeholder="20.03.2023 - 22.03.2023" class="todo__field-date" type="text">
+                        </div>
+    
+                    </div>
+                </div>
+                <div class="todo-task__tickets">
+                    <div class="todo-task__ticket">
+                        <div class="todo-task__ticket-title">
+                            Основание для проектирования
+                        </div>
+                        <img src="./assets/checked.svg" alt="">
+                    </div>
+                    <div class="todo-task__ticket">
+                        <div class="todo-task__ticket-title">
+                            Назначение объекта
+                        </div>
+                        <img src="./assets/not-checked.svg" alt="">
+                    </div>
+                    <div class="todo-task__ticket">
+                        <div class="todo-task__ticket-title">
+                            Качественные показатели
+                        </div>
+                        <img src="./assets/not-checked.svg" alt="">
+                    </div>
+                    <div class="todo-task__ticket">
+                        <div class="todo-task__ticket-title">
+                            Количественные показатели
+                        </div>
+                        <img src="./assets/not-checked.svg" alt="">
+                    </div>
+                    <div class="todo-task__ticket">
+                        <div class="todo-task__ticket-title">
+                            Источники получения сырья и рабочей силы
+                        </div>
+                        <img src="./assets/not-checked.svg" alt="">
+                    </div>
+                </div>
+                <img class="todo-task__hide" src="./assets/arrow-down.svg" alt="">
+            </div>
+        </div>
+        <img src="./assets/arrow-right.svg" alt="">
+        <div class="todo-middle">
+            <div class="todo-title">Согласование проекта</div>
+
+            <div class="todo-approval">
+                <div class="todo__fields">
+                    <div class="todo__field">
+                        <div class="todo__field-title">
+                            Исполнитель
+                        </div>
+                        <div class="todo__field-input">
+                            <input placeholder="Петров И.В." class="todo__field-worker" type="text">
+                        </div>
+                    </div>
+                    <div class="todo__field">
+                        <div class="todo__field-title">
+                            Дата исполнения
+                        </div>
+                        <div class="todo__field-input">
+                            <input placeholder="20.03.2023 - 22.03.2023" class="todo__field-date" type="text">
+                        </div>
+    
+                    </div>
+                </div>
+                <div class="todo-task__tickets">
+                    <div class="todo-approval__ticket">
+                        <div class="todo-approval__ticket-title">
+                            ПАО «Газпром»
+                        </div>
+                        <img src="./assets/checked.svg" alt="">
+                    </div>
+                    <div class="todo-approval__ticket">
+                        <div class="todo-approval__ticket-title">
+                            «Арктик СПГ 2»
+                        </div>
+                        <img src="./assets/not-checked.svg" alt="">
+                    </div>
+                    <div class="todo-approval__ticket">
+                        <div class="todo-approval__ticket-title">
+                            ПАО «Газпром»
+                        </div>
+                        <img src="./assets/checked.svg" alt="">
+                    </div>
+                    <div class="todo-approval__ticket">
+                        <div class="todo-approval__ticket-title">
+                            ПАО «НОВАТЭК»
+                        </div>
+                        <img src="./assets/not-checked.svg" alt="">
+                    </div>
+                    <div class="todo-approval__ticket">
+                        <div class="todo-approval__ticket-title">
+                            Sinopec
+                        </div>
+                        <img src="./assets/not-checked.svg" alt="">
+                    </div>
+                    <div class="todo-approval__ticket">
+                        <div class="todo-approval__ticket-title">
+                            ПАО «СИБУР»
+                        </div>
+                        <img src="./assets/not-checked.svg" alt="">
+                    </div>
+                </div>
+                <img class="todo-task__hide" src="./assets/arrow-down.svg" alt="">
+            </div>
+        </div>
+        <img src="./assets/arrow-right.svg" alt="">
+        <div class="todo-right">
+            <div class="todo-title">Технико-экономические изыскания</div>
+
+            <div class="todo-economic">
+                <div class="todo-economicfile">
+                    <img  src="./assets/file.svg" alt="">
+                    <div class="todo-taskfile__name">изучение и анализ условий и перспектив экономич. развития района.docx</div>
+                </div>
+                <div class="todo-economicfile">
+                    <img  src="./assets/file.svg" alt="">
+                    <div class="todo-taskfile__name">природные условия района и площади строительства.docx</div>
+                </div>
+                <div class="todo-addfile">Добавить файл</div>
+
+                <div class="todo-economic__graphics">
+                    <div class="todo-economic__graphic">
+                        <img src="./assets/graffic-1.svg" alt="">
+                    </div>
+                    <div class="todo-economic__graphic">
+                        <img src="./assets/graffic-2.svg" alt="">
+                    </div>
+                    <div class="todo-economic__graphic">
+                        <img src="./assets/graffic-3.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+  </body>
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+  <script>
+
+  </script>
+</html>

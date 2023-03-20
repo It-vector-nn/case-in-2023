@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&display=swap');
+a{
+    text-decoration: none;
+    color: #fff;
+}
+input {outline:none;}
+.header{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 18px;
+}
+.header-left{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header-title{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    color: #015366;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 17px;
+}
+.header-profile__title{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #000000;
+}
+.createproject{
+    max-width: 769px;
+    background: #A7D1D2;
+    border-radius: 10px;
+    padding: 27px 38px;
+    margin: 100px auto;
+
+}
+.createproject-title{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+    color: #000000;
+}
+.createproject-field{
+    max-width: 364px;
+    margin: 14px 0;
+}
+.createproject-fields{
+    max-width: 364px;
+    margin: 43px auto;
+}
+.createproject-field__title{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+    margin-bottom: 16px;
+}
+.createproject-field__input{
+    height: 43px;
+    width: 100%;
+    padding: 8px 14px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    color: #706C6C;
+    border: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 20px;
+}
+.createproject-btn{
+    padding: 11px 58px;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    background: #015366;
+    border-radius: 10px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 35px;
+    color: #FFFFFF;
+    margin: 33px auto;
+    text-decoration: none;
+    cursor: pointer;
+}
+.createproject-forgot-pass{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+    cursor: pointer;
+}
+
+.createproject__time{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.createproject__timefield{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.createproject__timefield-title{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+}
+.createproject__timefield-date{
+    height: 43px;
+    max-width: 227px;
+    padding: 8px 14px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    color: #706C6C;
+    border: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+
+@media (max-width: 424px) {
+    .createproject-field__title{
+    font-size: 16px;
+    }
+    .createproject-title{
+    font-size: 20px;
+    }
+    .createproject-forgot-pass{
+        font-size: 16px;
+    }
+    .createproject__timefield-title{
+        font-size: 14px;
+    }
+    .createproject__timefield-date{
+        width: 60%;
+    }
+    .createproject{
+        margin: 40px auto;
+    }
+}
+@media (max-width: 1023px) {
+    .createproject{
+        width: 80%;
+    }
+}
+
+.createproject-field__inputsearch{
+    height: 43px;
+    padding: 8px 0;
+    background: #FFFFFF;
+    border-radius: 8px;
+    color: #706C6C;
+    border: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.createproject-field__search{
+    background: #FFFFFF;
+    border-radius: 8px;
+    color: #706C6C;
+    border: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    width: 85%;
+}
+.createproject-field__workgroup{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.createproject-field__workgroup-worker{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 43px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+    padding: 8px 13px;
+}
+
+
+@media (max-width: 424px) {
+    .createproject-field__title{
+    font-size: 16px;
+    }
+    .createproject-title{
+    font-size: 20px;
+    }
+    .createproject-forgot-pass{
+        font-size: 16px;
+    }
+    .createproject__timefield-title{
+        font-size: 14px;
+    }
+    .createproject__timefield-date{
+        width: 60%;
+    }
+    .createproject{
+        margin: 40px auto;
+    }
+    .header-title{
+        font-size: 24px;
+    }
+}
+@media (max-width: 767px) {
+    .createproject{
+        margin: 50px auto;
+    }
+    .header-profile__title{
+        display: none;
+    }
+}
+@media (max-width: 1023px) {
+    .createproject{
+        width: 85%;
+    }
+}

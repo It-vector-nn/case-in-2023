@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&display=swap');
+a{
+    text-decoration: none;
+    color: #fff;
+}
+input {outline:none;}
+.header{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 18px;
+}
+.header-left{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header-title{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    color: #015366;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 17px;
+}
+.header-profile__title{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #000000;
+}
+
+.products{
+    display: flex;
+    max-width: 941px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 76px;
+    margin: 0 auto;
+    margin-top: 111px;
+}
+.products-item{
+    border-radius: 8px;
+    width: 263px;
+}
+.products-item__card{
+    background-color: #A7D1D2;
+    padding: 25px 32px;
+    border-radius: 8px 8px 0 0;
+}
+.products-item__descr{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+    padding: 8px;
+    border: 1px solid rgba(112, 108, 108, 0.52);
+    border-radius: 0 0 8px 8px;
+}
+@media (max-width: 424px) {
+
+    .header-title{
+        font-size: 24px;
+    }
+}
+@media (max-width: 767px) {
+
+    .header-profile__title{
+        display: none;
+    }
+}
+@media (max-width: 1023px) {
+
+}
+
+.navbar{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    left: 20px;
+    top: 300px;
+}
+.navbar-item{
+    cursor: pointer;
+}
