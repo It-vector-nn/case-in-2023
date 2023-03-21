@@ -284,3 +284,7 @@ input {outline:none;}
     line-height: 33px;
     color: #FFFFFF;
 }
+
+.pagination{
+    margin-top: 58px;
+}
