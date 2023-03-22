@@ -9,6 +9,11 @@ input {outline:none;}
     flex-direction: row;
     justify-content: space-between;
 }
+@media (max-width: 370px) {
+    .header{
+        padding: 0;
+    }
+}
 .header-left{
     display: flex;
     align-items: center;
